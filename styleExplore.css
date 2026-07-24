@@ -1,0 +1,44 @@
+body{
+   font-family: Helvetica;
+   background-color: grey;
+   font-size: 16px;
+}
+
+div {
+   font-family: Helvetica;
+   background-color: #272D33;
+   color: white;
+   font-size: 32px;
+   padding: 5px;
+}
+
+nav{
+    background-color: #272D33;
+    padding: 5px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.items:hover{
+    background-color: gray;
+    opacity: 0.5;
+}
+
+a {
+   width: 20%;
+   text-align: center;
+   text-decoration: none;
+}
+
+p{
+    color: whitesmoke;
+    font-size: 25px;
+    display: flex;
+    justify-content: end;
+}
+
+h1{
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+}

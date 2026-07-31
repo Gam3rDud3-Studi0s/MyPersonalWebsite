@@ -4,7 +4,7 @@ body {
     font-size: 16px;
 }
 
-.section {
+.section, .section2, .section3, .section4 {
     font-family: Helvetica;
     background-color: #272D33;
     color: white;
@@ -49,4 +49,35 @@ p {
     font-size: 25px;
     display: flex;
     justify-content: flex-end;
+}
+
+h4 {
+    color: whitesmoke;
+    font-family: Helvetica;
+    background-color: #272D33;
+    font-size: 16px;
+    padding: 0px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+h5 {
+    font-family: Helvetica;
+    background-color: #272D33;
+    font-size: 12px;
+    padding: 0px;
+}
+
+#first, #second, #third {
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+}
+
+#second {
+    display: none;
+}
+
+#third {
+    display: none;
 }

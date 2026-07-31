@@ -1,0 +1,92 @@
+Changes:
+
+1. I added a script.js {
+    let home = document.getElementById('home');
+    let explore = document.getElementById('explore');
+    let now = document.getElementById('now');
+    let future = document.getElementById('future');
+
+    let homeLink = document.getElementById('home-link');
+    let exploreLink = document.getElementById('explore-link');
+    let nowLink = document.getElementById('now-link');
+    let futureLink = document.getElementById('future-link');
+
+
+    homeLink.onclick = function(event) {
+        event.preventDefault();
+
+        home.classList.add('hidden');
+        explore.classList.add('hidden');
+        now.classList.add('hidden');
+        future.classList.add('hidden');
+
+        home.classList.remove('hidden');
+    };
+
+
+    exploreLink.onclick = function(event) {
+        event.preventDefault();
+
+        home.classList.add('hidden');
+        explore.classList.add('hidden');
+        now.classList.add('hidden');
+        future.classList.add('hidden');
+
+        explore.classList.remove('hidden');
+    };
+
+
+    nowLink.onclick = function(event) {
+        event.preventDefault();
+
+        home.classList.add('hidden');
+        explore.classList.add('hidden');
+        now.classList.add('hidden');
+        future.classList.add('hidden');
+
+        now.classList.remove('hidden');
+    };
+
+
+    futureLink.onclick = function(event) {
+        event.preventDefault();
+
+        home.classList.add('hidden');
+        explore.classList.add('hidden');
+        now.classList.add('hidden');
+        future.classList.add('hidden');
+
+        future.classList.remove('hidden');
+    };
+}
+
+2. I also linked the script.js to my index.html.
+
+3. I added more IDs to the nav.
+
+4. I added more classes to the section divs.
+
+5. I added breaks.
+
+6. I added the new classes to my style.css {
+    .section {
+        font-family: Helvetica;
+        background-color: #272D33;
+        color: white;
+        font-size: 32px;
+        padding: 20px;
+        margin-top: 20px;
+    }
+
+    .hidden {
+        display: none;
+    }
+}
+
+7. when mouse hovers nav bar subject then color changes to light blue.
+
+8. when a subject in the nav bar is clicked it only shows that div.
+
+9. (opt.) add easter egg of coffee at bottom of website.
+
+10. (opt.) add pictures of fav games and more text.

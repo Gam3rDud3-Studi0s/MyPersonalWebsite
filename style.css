@@ -4,6 +4,19 @@ body {
     font-size: 16px;
 }
 
+.section {
+    font-family: Helvetica;
+    background-color: #272D33;
+    color: white;
+    font-size: 32px;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.hidden {
+    display: none;
+}
+
 div {
     font-family: Helvetica;
     background-color: #272D33;
@@ -22,6 +35,7 @@ nav {
 .items:hover {
     background-color: gray;
     opacity: 0.5;
+    color: lightblue;
 }
 
 a {

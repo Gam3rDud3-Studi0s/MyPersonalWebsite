@@ -15,6 +15,9 @@ let futureLink = document.getElementById('future-link');
 homeLink.onclick = function(event) {
     event.preventDefault();
 
+    coffee.style.display = 'none';
+    coffeeReplace.style.display = 'none';
+    coffeeEmpty.style.display = 'none';
     home.classList.add('hidden');
     explore.classList.add('hidden');
     now.classList.add('hidden');
@@ -27,6 +30,9 @@ homeLink.onclick = function(event) {
 exploreLink.onclick = function(event) {
     event.preventDefault();
 
+    coffee.style.display = 'none';
+    coffeeReplace.style.display = 'none';
+    coffeeEmpty.style.display = 'none';
     home.classList.add('hidden');
     explore.classList.add('hidden');
     now.classList.add('hidden');
@@ -39,6 +45,9 @@ exploreLink.onclick = function(event) {
 nowLink.onclick = function(event) {
     event.preventDefault();
 
+    coffee.style.display = 'none';
+    coffeeReplace.style.display = 'none';
+    coffeeEmpty.style.display = 'none';
     home.classList.add('hidden');
     explore.classList.add('hidden');
     now.classList.add('hidden');
@@ -51,6 +60,9 @@ nowLink.onclick = function(event) {
 futureLink.onclick = function(event) {
     event.preventDefault();
 
+    coffee.style.display = 'none';
+    coffeeReplace.style.display = 'none';
+    coffeeEmpty.style.display = 'none';
     home.classList.add('hidden');
     explore.classList.add('hidden');
     now.classList.add('hidden');
